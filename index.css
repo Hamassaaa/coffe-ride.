@@ -1,0 +1,172 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    direction: rtl;
+    background-image: url('img/DALL·E\ 2024-11-24\ 02.55.45\ -\ A\ realistic\ image\ of\ a\ modern\ luxury\ bus\ designed\ as\ a\ mobile\ café\ and\ transportation\ service.\ The\ bus\ has\ large\ windows\,\ sleek\ exterior\ branding\ with.webp'); /* ضع رابط الصورة هنا */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(148, 112, 85, 0.534); /* إضافة شفاف للبني الداكن */
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .logo h1 {
+    font-size: 28px;
+}
+
+header nav ul {
+    list-style-type: none;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.349); /* إضافة شفاف أسود للنصوص */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #7a573ccd;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    background-color:#ffffff;
+    text-align: center;
+    z-index: 5;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Booking Section */
+.booking {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.booking form {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.booking input, .booking select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking .btn {
+    padding: 12px 25px;
+    background-color: #6f4f37;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6f4f37;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
